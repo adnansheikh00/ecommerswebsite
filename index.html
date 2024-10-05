@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Isotope -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/CSS/product.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/person.css">
+</head>
+<body>
+    <div class="navbar-wrapper">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <a class="navbar-brand" href="">
+                    <img src="png\1000100751-unscreen.gif" alt="Logo" class="custom-logo">
+                </a>
+                <div class="collapse" id="collapse-1">
+                        <a href="">Home</a>
+                        <a target="_blank" href="/product.html">Shop</a>
+                        <a target="_blank" href="/shopingcart.html">Features</a>
+                        <a target="_blank" href="/blog.html">Blog</a>
+                        <a target="_blank" href="/about.html">About</a>
+                        <a target="_blank" href="/contact.html">Contact</a>
+                      </div>
+              </div>
+              <div class="icon">
+                <i class="bx bx-search"></i> <!-- Example icon -->
+                <i class='bx bxs-cart-alt'></i>
+                <i class='bx bx-heart'></i>
+                <div class="user-profile" id="userIcon">
+                    <i class="bx bx-user"></i> <!-- User icon -->
+                    <span id="username">Username</span>
+                </div>
+            </div>
+            <!-- Hamburger menu for smaller screens -->
+            <div class="hamburger-menu" id="hamburger-menu-1">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </div>
+
+   <!-- Slider -->
+   <section id="home">
+    <div class="simple-slider">
+        <div class="slide" style="background-image: url('png/slide-01.jpg');">
+            <div class="container">
+                <span class="ltext-101">Women Collection 2018</span>
+                <h2 class="ltext-201">NEW SEASON</h2>
+                <a href="product.html" class="btn-shop">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image: url('png/slide-02.jpg');">
+            <div class="container">
+                <span class="ltext-101">Men New-Season</span>
+                <h2 class="ltext-201">Jackets & Coats</h2>
+                <a href="product.html" class="btn-shop">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="slide" style="background-image: url('png/slide-03.jpg');">
+            <div class="container">
+                <span class="ltext-101">Men Collection 2018</span>
+                <h2 class="ltext-201">New arrivals</h2>
+                <a href="product.html" class="btn-shop">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section id="persons">
+        <div class="item women">
+            <img src="png/banner-01.jpg" alt="Women's banner">
+            <h1>Women</h1>
+            <h4>Spring 2018</h4>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+        <div class="item men">
+            <img src="png/banner-02.jpg" alt="Men's banner">
+            <h1>Men</h1>
+            <h4>Spring 2018</h4>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+        <div class="item accessories-m">
+            <img src="png/banner-03.jpg" alt="Accessories banner">
+            <h1>Accessories</h1>
+            <h4>Spring 2018</h4>
+            <a href="#" class="shop-now">Shop Now</a>
+        </div>
+    </section>
+    
+    <section id="product">
+        <div  class="navbr">
+            <div class="custom-logo">
+              <h2>PRODUCT OVERVIEW</h2>
+              <div class="collapse underline" id="collapse-2">
+                <a class="All-products" href="#All products">All products</a>
+                <a class="Clothes" href="#Clothes">Clothes</a>
+                <a class="Accessories" href="#accessories">accessories</a>
+                <a class="Belts" href="#Belts">Belts</a>
+                <a class="Shoes" href="#Shoes">Shoes</a>
+                <a class="Watches" href="#watches">watches</a>
+              </div>
+            </div>
+            <div class="icon down">
+              <i class='bx bx-filter'>filter</i>
+              <i class="bx bx-search"></i>
+            </div>
+            <!-- Hamburger menu for smaller screens -->
+            <div class="hamburger-menu" id="hamburger-menu-2">
+                <i class="bx bx-menu"></i>
+            </div>
+        </div>
+        <div class="product">
+          
+          <div class="clothe">
+              <div class="card">
+                <div class="wrapper">
+                  <img src="png/product-01.jpg" class="cover-image" />
+                </div>
+                <h4 class="title"></h4>
+                <img src="/png/tinywow_change_bg_photo_63599297.png" class="character" />
+              </div>
+              <div class="card">
+                <div class="wrapper">
+                  <img src="png/product-03.jpg" class="cover-image" />
+                </div>
+                <h4 class="title"></h4>
+                <img src="/png/IMG_20240901_103124.png" class="character" />
+              </div>
+          </div>
+          
+          <div class="accessorie">
+            
+          </div>
+          
+          <div class="belt">
+            
+          </div>
+          
+          <div class="shoe">
+            <div class="card">
+              <div class="wrapper">
+                <img src="png/product-09.jpg" class="cover-image" />
+              </div>
+              <h4 class="title"></h4>
+              <img src="/png/IMG_20240901_104519.png" class="character" />
+            </div>
+          </div>
+          
+          <div class="watch">
+            <div class="card">
+              <div class="wrapper">
+                <img src="png/product-15.jpg" class="cover-image" />
+              </div>
+          </div>
+          
+        </div>
+    </section>
+    
+    <footer>  
+   <div class="footer-content">  
+    <div class="footer-column">  
+      <h3>CATEGORIES</h3>  
+      <ul>  
+       <li>Women</li>  
+       <li>Men</li>  
+       <li>Shoes</li>  
+       <li>Watches</li>  
+      </ul>  
+    </div>  
+    <div class="footer-column">  
+      <h3>HELP</h3>  
+      <ul>  
+       <li>Track Order</li>  
+       <li>Returns</li>  
+       <li>Shipping</li>  
+       <li>FAQs</li>  
+      </ul>  
+    </div>  
+    <div class="footer-column">  
+      <h3>GET IN TOUCH</h3>  
+      <p>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</p>  
+      <div class="social-icons">  
+       <a href="#" class="facebook-icon"><i class='bx bxl-facebook-circle'></i></a>  
+       <a href="#" class="instagram-icon"><i class='bx bxl-instagram-alt' ></i></a>  
+       <a href="#" class="pinterest-icon"><i class='bx bxl-pinterest' ></i></a>  
+      </div>  
+    </div>  
+    <div class="footer-column">  
+      <h3>NEWSLETTER</h3>  
+      <form>  
+       <input type="email" placeholder="email@example.com">  
+       <button type="submit">SUBSCRIBE</button>  
+      </form>  
+    </div>  
+   </div>  
+  </footer>
+
+  <!-- SCRIPT -->
+<script src="jquary/index.js"></script>
+
+
+    <script>
+        // SweetAlert example
+        $(document).on('click', '.shop-now', function(e) {
+            e.preventDefault();
+            swal("Welcome!", "Thank you for visiting our store!", "success");
+        });
+
+        $(document).ready(function() {
+            let currentIndex = 0;
+            const slides = $('.slide');
+            const totalSlides = slides.length;
+
+            function showSlide(index) {
+        currentIndex = (index + totalSlides) % totalSlides; // Loop around
+        $('.simple-slider').css('transform', `translateX(-${currentIndex * 100}%)`);
+            }
+
+            // Automatic sliding
+            setInterval(function() {
+                showSlide(currentIndex + 1);
+            }, 5000); // Change slide every 5 seconds
+        });
+
+    </script>
+  
+</body>
+</html>
